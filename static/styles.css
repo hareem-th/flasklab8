@@ -1,0 +1,359 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* Header Styles */
+header {
+  background-color: #000000; /* Dark background for contrast */
+  padding: 20px; /* Add some padding */
+}
+
+.header-container {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.header-container a {
+  color: #fff; 
+  text-decoration: none; 
+  margin-right: 20px; 
+  font-size: 18px; 
+}
+
+.header-container a:hover {
+  color: #0f0; 
+  text-decoration: underline; 
+}
+
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  color: #0f0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #0f0;
+}
+
+  .hero {
+    text-align: center;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 70px;
+    color: rgb(0, 255, 13);
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .hero h2 span {
+    color: rgb(0, 255, 13);
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 span {
+  color: #0f0;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background: #0f0;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn-alt {
+  background: #333;
+  color: #fff;
+}
+
+
+
+/* Services Page Styles */
+.services {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for readability */
+  padding: 50px 20px; /* Add spacing around the content */
+  line-height: 1.6; /* Improve text spacing for readability */
+  text-align: center; /* Center-align text */
+}
+
+.services h1, .services h2 {
+  color: #0f0; /* Green headings for better visibility */
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 18px; /* Slightly larger font size for paragraphs */
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.services ul li {
+  margin: 10px 0; /* Add space between list items */
+  text-align: center; /* Align list items to the left */
+}
+
+.services ul li b {
+  color: rgb(255, 255, 255); 
+}
+
+
+section.services h2 {
+  color:#0f0;
+  margin-top: 20px;
+
+}
+
+/* Paragraph Styling */
+section.services p {
+  margin: 10px 0 20px;
+}
+
+/* List Styling */
+section.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+section.services ul li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgb(9, 109, 9);
+  margin-top: 20px;
+  border-top: 2px solid #0f0;
+  border-bottom: 2px solid #0f0;
+  padding-bottom: 5px;
+ 
+}
+
+section.services ul li b {
+  color: #000000;
+}
+
+/* Links and Hover Effects */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+
+
+/* Footer */
+footer {
+  background: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .links a {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.why-choose-us{
+  text-align:center;
+  font-size: 30px;
+  color:#0f0;
+}
+
+.why-choose-us2{
+  text-align:center;
+  font-size: 18px;
+}
+
+.images {
+  display: flex; /* Use flexbox to arrange images horizontally */
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Add space between images */
+}
+
+.images img {
+  width: 45%; /* Set width to 45% of the container */
+  height: 300px; /* Set the height of the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio while filling the set height */
+}
+
+
+.social-icons {
+  display: flex; /* Use flexbox to align images horizontally */
+  justify-content: center; /* Center the images horizontally */
+  gap: 15px; /* Add space between the images */
+}
+
+.social-icons img {
+  width: 500px; /* Set the width of each image */
+  height: 500px; /* Set the height of each image */
+  object-fit: cover; /* Ensure the images maintain aspect ratio while filling the set width and height */
+}
+.gym-image img {
+  width: 200%; /* Set the width to 80% of the container */
+  height: 100; /* Keep the aspect ratio intact */
+  max-width: 700px; /* Set a maximum width to prevent the image from becoming too large */
+  display: block; /* Ensure the image is treated as a block element for proper alignment */
+  margin: 0 auto;
+  width: 45%; /* Set width to 45% of the container */
+  height: 300px; /* Set the height of the images */
+  object-fit: cover; /* Center the image horizontally */
+}
+
+
+.about-us {
+  text-align: center; /* Center the text */
+  max-width: 800px; /* Optional: Limit the width to make it look better on larger screens */
+  margin: 0 auto; /* Center the section horizontally if max-width is set */
+}
+
+
+
+
+
+
+/* Basic page styling */
+body {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+header {
+  background-color: black;
+  padding: 0px;
+}
+
+header a {
+  color: #0f0; /* Green text */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header a:hover {
+  color: rgb(0, 250, 33); /* White text on hover */
+}
+
+/* Join Us form section */
+.join-us {
+  background-color: #000000; /* Dark background */
+  margin-top: 50px;
+  padding: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.join-us h2 {
+  color: #0f0; /* Green color */
+}
+
+form {
+  text-align: left;
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  color: rgb(247, 255, 247); /* Green label */
+  margin: 5px 0;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #0f0; /* Green border */
+  background-color: #333; /* Dark input background */
+  color: white;
+}
+
+form button {
+  background-color: #0f0; /* Green button */
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #0b0; /* Slightly darker green on hover */
+}
+footer {
+  text-align: center;
+  background-color: #0b0;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f0a500;
+}

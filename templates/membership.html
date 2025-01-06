@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>membership</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+  <header>
+    <h1 class="logo">FitZone Fitness</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About</a>
+      <a href="{{ url_for('membership') }}">Membership</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="join-us">
+      <h2>join us</h2>
+      
+      <form>
+        <label>Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit"onclick="window.location.href='home.html';">Login</button> 
+        <button type="button"onclick="window.location.href='about.html';">Don't have an account? Sign Up</button>
+      
+      </form>
+    </section>
+  </main>
+
+  <main>
+    <section class="services">
+      <h1>MEMBERSHIP PLAN</h1>
+      <ul>
+        <li><b>Basic Membership:</b> Access to gym facilities and group fitness classes. <br> <i>Price:</i> $30/month</li>
+        <li><b>Standard Membership:</b> Includes gym access, group fitness classes, and two personal training sessions per month. <br> <i>Price:</i> $50/month</li>
+        <li><b>Premium Membership:</b> All Standard Membership benefits plus unlimited yoga and Pilates classes and a monthly nutrition consultation. <br> <i>Price:</i> $80/month</li>
+        <li><b>Family Membership:</b> Gym access for up to four family members, group fitness classes, and one family personal training session per month. <br> <i>Price:</i> $120/month</li>
+      </ul>
+  
+      <p>Join us and become a part of the FitZone Fitness community, where every workout is a step towards your best self.</p>
+    </section>
+  </main>
+  
+
+  <footer role="contentinfo">
+    <div class="footer-container">
+      <div>
+        <h3>FitZone Fitness</h3>
+        <p>123 Wellness Street, Healthy City, FitLand 56789</p>
+      </div>
+   
+      
+      <div class="footer-links">
+        <a href="#">Site Terms</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">State Disclosures</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+      <p>&copy; 2024 FitZone Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+  </body>
+  </html>

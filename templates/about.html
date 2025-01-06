@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - FitZone Fitness</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+  <header>
+    <h1 class="logo">FitZone Fitness</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About</a>
+      <a href="{{ url_for('membership') }}">Membership</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-us">
+      <h1>About Us</h1>
+      <p>Welcome to FitZone Fitness, where fitness meets excellence.</p>
+      <p>State-of-the-art equipment, expert trainers, and a welcoming community to transform your body and lifestyle.</p>
+    </section>
+  </main>
+  <main>
+    <section class="services">
+      <h2>What We Offer</h2>
+      <ul>
+        <li><b>Personal Training:</b> Tailored one-on-one training sessions to meet your specific fitness needs. <br> <i>Charge:</i> $50/session</li>
+        <li><b>Group Fitness Classes:</b> Fun and energetic classes for all fitness levels. <br> <i>Charge:</i> $10/class</li>
+        <li><b>Yoga and Pilates:</b> Relax your mind and strengthen your body with our expert-led sessions. <br> <i>Charge:</i> $15/class</li>
+        <li><b>Nutrition Counseling:</b> Customized meal plans and guidance to complement your fitness routine. <br> <i>Charge:</i> $60/session</li>
+        <li><b>Strength and Conditioning:</b> Programs designed to boost your performance and endurance. <br> <i>Charge:</i> $40/session</li>
+      </ul>
+    </section>
+
+    <footer role="contentinfo">
+      <div class="footer-container">
+        <div>
+          <h3>FitZone Fitness</h3>
+          <p>123 Wellness Street, Healthy City, FitLand 56789</p>
+        </div>
+     
+        
+        <div class="footer-links">
+          <a href="#">Site Terms</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">State Disclosures</a>
+          <a href="#">Cookie Settings</a>
+        </div>
+        <p>&copy; 2024 FitZone Fitness. All rights reserved.</p>
+      </div>
+    </footer>
+    </body>
+    </html>
